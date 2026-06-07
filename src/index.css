@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Print styles */
+@media print {
+  @page {
+    margin: 0.5in;
+    size: A4;
+  }
+
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Hide everything except the report card */
+  body > *:not(#root) {
+    display: none !important;
+  }
+
+  /* Hide navigation and UI elements */
+  aside,
+  header,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Make main content full width */
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .lg\:pl-64 {
+    padding-left: 0 !important;
+  }
+
+  /* Report card specific styles */
+  #report-card {
+    box-shadow: none !important;
+    border: none !important;
+    page-break-inside: avoid;
+  }
+
+  #report-card * {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure tables don't break across pages */
+  table {
+    page-break-inside: avoid;
+  }
+
+  /* Hide term selector cards and other non-report elements */
+  .space-y-6 > *:not(:last-child) {
+    display: none !important;
+  }
+
+  /* Show only the report card section */
+  .space-y-4 {
+    display: block !important;
+  }
+
+  /* Remove backgrounds for printing */
+  .bg-gradient-to-r {
+    background: white !important;
+  }
+
+  /* Ensure text is black for printing */
+  .text-white {
+    color: black !important;
+  }
+
+  .text-indigo-100,
+  .text-indigo-200 {
+    color: #666 !important;
+  }
+}
