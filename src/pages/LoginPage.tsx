@@ -135,7 +135,7 @@ export default function LoginPage() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-indigo-600">DAARUL LUGATUL AROBIYYAH</h1>
-             <p clasname="text-xs">COLLEGE OF ARABIC AND ISLAMIC STUDIES</p>
+             <p classname="text-xs">COLLEGE OF ARABIC AND ISLAMIC STUDIES</p>
             </div>
           </div>
 
