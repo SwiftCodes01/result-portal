@@ -74,7 +74,7 @@ function DashboardView() {
         className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-6 lg:p-8 text-white"
       >
         <h1 className="text-2xl lg:text-3xl font-bold mb-2">Admin Dashboard 🏫</h1>
-        <p className="text-slate-300">Complete overview of BrightPath Academy</p>
+        <p className="text-slate-300">Complete overview</p>
       </motion.div>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
