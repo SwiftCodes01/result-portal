@@ -129,8 +129,8 @@ export default function LoginPage() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="w-full max-w-md"
         >
-          <div className="lg:hidden flex items-center gap-3 mb-8">
-            <div className="w-12 h-12  rounded-xl flex items-center justify-center">
+          <div className="lg:hidden flex flex-col items-center gap-3 mb-8">
+            <div className="w-20 h-20  rounded-xl flex items-center justify-center">
                <img src={logo} alt="" />
             </div>
             <div>
