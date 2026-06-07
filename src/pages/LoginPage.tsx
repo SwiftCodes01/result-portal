@@ -134,8 +134,8 @@ export default function LoginPage() {
                <img src={logo} alt="" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">DAARUL LUGATUL AROBIYYAH</h1>
-              <p className="text-gray-500 text-sm">School Portal</p>
+              <h1 className="text-xl font-bold text-indigo-400">DAARUL LUGATUL AROBIYYAH</h1>
+             
             </div>
           </div>
 
@@ -168,7 +168,7 @@ export default function LoginPage() {
                 exit={{ opacity: 0, x: 20 }}
               >
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome back</h2>
-                <p className="text-gray-500 mb-6">Sign in to access your portal</p>
+                <p className="text-gray-500 mb-6 text-sm">Sign in to access your portal</p>
 
                 {error && (
                   <div className="flex items-center gap-2 p-3 mb-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">
@@ -234,13 +234,13 @@ export default function LoginPage() {
                       </>
                     )}
                   </button>
-                  <button
+                  {/* <button
                     type="button"
                     onClick={() => { setShowForgotPassword(true); setError(''); setSuccess(''); }}
                     className="w-full text-center text-sm text-indigo-600 hover:text-indigo-700 font-medium"
                   >
                     Forgot your password?
-                  </button>
+                  </button> */}
                 </form>
                           <p className=" w-full text-center text-sm leading-relaxed mt-10 font-medium">
               Developed by Swift Media
