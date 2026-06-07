@@ -130,7 +130,7 @@ export default function LoginPage() {
           className="w-full max-w-md"
         >
           <div className="lg:hidden flex items-center gap-3 mb-8">
-            <div className="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center">
+            <div className="w-12 h-12  rounded-xl flex items-center justify-center">
                <img src={logo} alt="" />
             </div>
             <div>
