@@ -113,9 +113,9 @@ export default function LoginPage() {
             <p className="text-indigo-200 text-2xl leading-relaxed max-w-md">
               دار اللغة العربية للدراسات العربية والإسلامية
             </p>
-            <marquee className="text-indigo-200 text-lg leading-relaxed max-w-md mt-30">
+            <p className="text-indigo-200 text-lg leading-relaxed max-w-md mt-30">
               Developed by Swift Media
-            </marquee>
+            </p>
            
           </motion.div>
         </div>
