@@ -109,8 +109,9 @@ export default function LoginPage() {
             <h2 className="text-4xl xl:text-5xl font-bold text-white leading-tight mb-6">
               COLLEGE OF ARABIC AND <br />
               <span className="text-amber-400">ISLAMIC STUDIES</span>
+              <p className="text-lg text-white">Ago Molaba Igboho Oyo State</p>
             </h2>
-            <p className="text-lg">Ago Molaba Igboho Oyo State</p>
+        
             <p className="text-indigo-200 text-2xl leading-relaxed max-w-md">
               دار اللغة العربية للدراسات العربية والإسلامية
             </p>
