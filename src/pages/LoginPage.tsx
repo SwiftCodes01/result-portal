@@ -131,7 +131,7 @@ export default function LoginPage() {
         >
           <div className="lg:hidden flex items-center gap-3 mb-8">
             <div className="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center">
-              <School className="w-7 h-7 text-white" />
+               <img src={logo} alt="" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">DAARUL LUGATUL AROBIYYAH</h1>
