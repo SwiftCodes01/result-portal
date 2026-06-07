@@ -134,8 +134,8 @@ export default function LoginPage() {
                <img src={logo} alt="" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-indigo-400">DAARUL LUGATUL AROBIYYAH</h1>
-             
+              <h1 className="text-xl font-bold text-indigo-600">DAARUL LUGATUL AROBIYYAH</h1>
+             <p clasname="text-xs">COLLEGE OF ARABIC AND ISLAMIC STUDIES</p>
             </div>
           </div>
 
